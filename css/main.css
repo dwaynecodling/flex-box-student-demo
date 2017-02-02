@@ -1,0 +1,120 @@
+body {
+		background-color: #d3d3d3;
+}
+img{
+	max-width: 100%;
+}
+.main-container {
+	
+	margin: auto;
+
+}
+
+/* Start of Responsive Layout */
+
+@media only screen and (min-width:800px) {
+
+.main-container {
+	width: 90%; 
+}
+
+.section-one {
+	display: flex;
+	width: 100%;
+}
+
+
+.section-one-left {
+	width: 75%;
+	background-color: red;
+	height: 400px;
+
+}
+
+
+.section-one-right {
+	width: 25%;
+	background-color: purple;
+	height: 400px;
+}
+
+
+.section-two {
+	display: flex;
+	width: 100%;
+}
+
+.section-two-left {
+	width: 55%;
+}
+
+.section-two-right {
+	width: 45%;
+}
+
+
+.section-two-right-top {
+	display: flex;
+
+}
+
+.section-two-right-top-left {
+width: 47%; 
+height: 269px;
+background-color: yellow;
+
+}
+
+
+.section-two-right-top-right {
+width: 53%;
+height: 269px;
+background-color: orange;
+}
+
+
+.section-two-right-middle {
+	width: 100%;
+	height: 440px;
+	background-color: aquamarine;
+}
+.section-two-right-bottom {
+	width: 100%;
+	height: 400px;
+	background-color: turquoise;
+}
+
+
+
+.section-two-left-top {
+	height: 600px;
+	background-color: green;
+}
+
+.section-two-left-bottom {
+	height: 600px;
+	background-color: blue;
+}
+
+
+}
+
+/* End of Responsive Layout */
+
+
+.section-one-left {
+	position: relative;
+	overflow: hidden;
+
+}
+.header  {
+	position: absolute;
+	margin: 20px;
+	color: white;
+	font-family: 'Tangerine', cursive;
+
+}
+
+p{
+	font-size: 2em;
+}
